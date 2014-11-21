@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/settings_1"
+        android:onClick="imgbtnSettings_onClick"
+        android:layout_gravity="right"
+        android:padding="16dp"
+        android:id="@+id/imgBtnSettings" />
+
+
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:text="Povestioare la Culcare"
+         android:id="@+id/textView"
+         android:layout_gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView"
+        android:onClick="imgBetisor_click"
+        android:src="@drawable/title_2"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>

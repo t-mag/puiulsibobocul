@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="tmag.com.puiulsibobocul.Settings"
+    android:orientation="vertical"
+    android:background="@drawable/frame">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speaker"
+            android:id="@+id/btnSound"
+            android:onClick="btnSound_onClick"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"
+            android:tag="ON"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:text="Sound ON/OFF"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_mic_green_off"
+            android:id="@+id/btnRecord"
+            android:onClick="btnRecord_onClick"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:text="Record Voice"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnInfo"
+            android:background="@drawable/icon_help_noback"
+            android:onClick="btnInfo_onClick"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:text="Help"
+            android:background="@color/transparent"
+            android:textAlignment="viewStart"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAbout"
+            android:background="@drawable/icon_info_red"
+            android:onClick="btnAbout_onClick"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:text="About"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+
